@@ -4,8 +4,11 @@ Included:
 
 - F1OOB-PoC source and evidence
 - XMLFuzz source (XML parser fuzzer, AGX sel8/reconnect harness)
+- FastPoC source (minimal AGX reconnect hang, no fuzzing)
+- unsigned IPAs for F1OOB, XMLFuzz and FastPoC
 - SPTM 27.2 TTBAT report
 - XMLFuzz findings and reconnect-hang writeup/logs
+- crash/hang notes
 
 Excluded from the public tree:
 

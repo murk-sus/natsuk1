@@ -39,29 +39,43 @@ The SPTM/TTBAT work is in `reports/SPTM_27.2_TTBAT_2026-11-04.md`.
 ```
 F1OOB-PoC/      IOSurface F1 wrap -> AGX/Metal same-context GPU OOB harness
 XMLFuzz/        IOSurface XML fuzzer + AGX sel8/reconnect harness
+FastPoC/        minimal fast AGX reconnect hang (no fuzzing)
+builds/         unsigned IPAs for F1OOB, XMLFuzz and FastPoC
 reports/        findings, SPTM TTBAT report, reconnect hang writeup
 logs/           sanitized evidence logs
+crashes/        crash/hang notes (no kernel panic captured)
 ```
+
+## Fast PoC (no fuzzing)
+
+`FastPoC/` is the short path: it creates the F1 surface and then loops
+`IOServiceOpen(AGXAcceleratorG14P, type=1)` → `sel8` type `0x82` on that
+surface → `IOServiceClose`.  The first 17 cycles return `0x0`; the 18th
+`IOServiceOpen` hangs.  It takes about a second and does not fuzz.  The
+unsigned IPA is `builds/AGXReconnect-unsigned.ipa`.
 
 ## Build
 
-Both projects use Theos:
+All projects use Theos:
 
 ```sh
 cd XMLFuzz && make ipa
 cd F1OOB-PoC && make ipa
+cd FastPoC && make ipa
 ```
 
 Sign with your own development certificate and provisioning profile.  The
-repository intentionally does **not** contain certificates, provisioning
-profiles, signed IPAs, Apple kernelcaches, IPSWs, or device identifiers.
+repository contains only **unsigned** IPAs; it intentionally does not
+contain certificates, provisioning profiles, signed IPAs, Apple
+kernelcaches, IPSWs, or device identifiers.
 
 ## Run
 
-Install the signed IPA with `pymobiledevice3` (or Xcode/devicectl) on a
-test device you own.  The XMLFuzz app starts its harness on launch and
-keeps the screen awake.  It writes logs under
-`Documents/XMLFuzz/` on the device.
+Install a signed IPA with `pymobiledevice3` (or Xcode/devicectl) on a
+test device you own.  `AGXReconnect` starts its loop on launch and hangs
+at cycle 18; reboot the test device to recover.  `XMLFuzz` starts its
+harness on launch and keeps the screen awake.  Logs are written under
+`Documents/AGXReconnect/` or `Documents/XMLFuzz/` on the device.
 
 ## Responsible disclosure
 
