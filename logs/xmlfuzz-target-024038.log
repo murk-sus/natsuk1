@@ -1,0 +1,151 @@
+[02:40:38.553] === IOSurface XML fuzz start ===
+[02:40:38.560] sysname=Darwin release=27.2.0 version=Darwin Kernel Version 27.2.0: Tue Oct 13 21:26:30 PDT 2026; root:xnu-13432.42.3~28/RELEASE_ARM64_T8110
+[02:40:38.561] log path: /var/mobile/Containers/Data/Application/<UUID>/Documents/XMLFuzz/fuzz-20261108-024038.log
+[02:40:38.561] === XMLTarget start ===
+[02:40:38.562] target: IOSurfaceRoot conn=0x4f3b
+[02:40:38.563] replay: no last.xml
+[02:40:38.563] target: F1 shape sel0=0x0 sid=18
+[02:40:38.565] target: AGX conn=0x5d33 f1sid=18
+[02:40:38.565] sel8addr: type=0x0 addr=user:0x100854000 len=0x4000
+[02:40:38.566] sel8addr: -> 0xe00002be out=0x1000 va=0x0 len=0x0 o50=0x0
+[02:40:38.566] sel8addr: type=0x0 addr=kern:0xfffffff007004000 len=0x4000
+[02:40:38.566] sel8addr: -> 0xe00002be out=0x1000 va=0x0 len=0x0 o50=0x0
+[02:40:38.567] sel8addr: type=0x80 addr=user:0x100854000 len=0x4000
+[02:40:38.567] sel8addr: -> 0xe00002be out=0x1000 va=0x0 len=0x0 o50=0x0
+[02:40:38.567] sel8addr: type=0x80 addr=kern:0xfffffff007004000 len=0x4000
+[02:40:38.568] sel8addr: -> 0xe00002be out=0x1000 va=0x0 len=0x0 o50=0x0
+[02:40:38.568] sel8addr: type=0x82 addr=user:0x100854000 len=0x4000
+[02:40:38.569] sel8addr: -> 0xe00002bc out=0x1000 va=0x0 len=0x0 o50=0x0
+[02:40:38.569] sel8addr: type=0x82 addr=kern:0xfffffff007004000 len=0x4000
+[02:40:38.569] sel8addr: -> 0xe00002bc out=0x1000 va=0x0 len=0x0 o50=0x0
+[02:40:38.570] sel8val: +0x40=0x0
+[02:40:38.570] sel8val: -> 0x0 out=0x1000 va=0x1500000000 len=0x10000 o50=0x10000
+[02:40:38.570] sel8val: +0x40=0x1
+[02:40:38.571] sel8val: -> 0x0 out=0x1000 va=0x1500018000 len=0x10000 o50=0x10000
+[02:40:38.571] sel8val: +0x40=0x2
+[02:40:38.571] sel8val: -> 0x0 out=0x1000 va=0x1500030000 len=0x10000 o50=0x10000
+[02:40:38.571] sel8val: +0x40=0x3
+[02:40:38.572] sel8val: -> 0x0 out=0x1000 va=0x1500048000 len=0x10000 o50=0x10000
+[02:40:38.572] sel8val: +0x40=0x4
+[02:40:38.572] sel8val: -> 0x0 out=0x1000 va=0x1500060000 len=0x10000 o50=0x10000
+[02:40:38.573] sel8val: +0x40=0x8
+[02:40:38.573] sel8val: -> 0x0 out=0x1000 va=0x1500078000 len=0x10000 o50=0x10000
+[02:40:38.573] sel8val: +0x40=0x10
+[02:40:38.574] sel8val: -> 0x0 out=0x1000 va=0x1500090000 len=0x10000 o50=0x10000
+[02:40:38.574] sel8val: +0x40=0x100
+[02:40:38.575] sel8val: -> 0x0 out=0x1000 va=0x15000a8000 len=0x10000 o50=0x10000
+[02:40:38.575] sel8val: +0x40=0x1000
+[02:40:38.575] sel8val: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000 o50=0x10000
+[02:40:38.575] sel8val: +0x40=0x10000
+[02:40:38.576] sel8val: -> 0x0 out=0x1000 va=0x15000d8000 len=0x10000 o50=0x10000
+[02:40:38.576] sel8val: +0x40=0x7fffffff
+[02:40:38.576] sel8val: -> 0x0 out=0x1000 va=0x15000f0000 len=0x10000 o50=0x10000
+[02:40:38.576] sel8val: +0x40=0x80000000
+[02:40:38.577] sel8val: -> 0x0 out=0x1000 va=0x1500108000 len=0x10000 o50=0x10000
+[02:40:38.577] sel8val: +0x40=0xffffffff
+[02:40:38.577] sel8val: -> 0x0 out=0x1000 va=0x1500120000 len=0x10000 o50=0x10000
+[02:40:38.577] sel8val: +0x40=0x100000000
+[02:40:38.578] sel8val: -> 0x0 out=0x1000 va=0x1500000000 len=0x10000 o50=0x10000
+[02:40:38.578] sel8val: +0x40=0xffffffffffffffff
+[02:40:38.578] sel8val: -> 0x0 out=0x1000 va=0x1500120000 len=0x10000 o50=0x10000
+[02:40:38.578] sel8cnt: +0x30=0x0
+[02:40:38.579] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.579] sel8cnt: +0x30=0x1
+[02:40:38.579] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.579] sel8cnt: +0x30=0x2
+[02:40:38.579] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.580] sel8cnt: +0x30=0x3
+[02:40:38.580] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.580] sel8cnt: +0x30=0x4
+[02:40:38.580] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.580] sel8cnt: +0x30=0x8
+[02:40:38.581] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.581] sel8cnt: +0x30=0x10
+[02:40:38.581] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.581] sel8cnt: +0x30=0x100
+[02:40:38.581] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.582] sel8cnt: +0x30=0x1000
+[02:40:38.582] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.582] sel8cnt: +0x30=0xffffffff
+[02:40:38.582] sel8cnt: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.582] sel8wire: +0x48=0x0
+[02:40:38.583] sel8wire: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.583] sel8wire: +0x48=0x4000
+[02:40:38.583] sel8wire: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.583] sel8wire: +0x48=0x10000
+[02:40:38.583] sel8wire: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.584] sel8wire: +0x48=0x100000
+[02:40:38.584] sel8wire: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.584] sel8wire: +0x48=0x1000000
+[02:40:38.584] sel8wire: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.584] sel8wire: +0x48=0xffffffff
+[02:40:38.585] sel8wire: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.585] sel8wire: +0x48=0xffffffffffffffff
+[02:40:38.585] sel8wire: -> 0x0 va=0x1500000000 o50=0x10000
+[02:40:38.585] suballoc: parent sel8=0x0 id=0xb878dc58 va=0x1500000000 len=0x10000
+[02:40:38.585] suballoc: type=0x0 parent=0xb878dc58
+[02:40:38.585] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.586] suballoc: type=0x80 parent=0xb878dc58
+[02:40:38.586] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.586] suballoc: type=0x82 parent=0xb878dc58
+[02:40:38.586] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.586] suballoc: type=0x0 parent=0xb878dc59
+[02:40:38.587] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.587] suballoc: type=0x80 parent=0xb878dc59
+[02:40:38.587] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.587] suballoc: type=0x82 parent=0xb878dc59
+[02:40:38.587] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.588] suballoc: type=0x0 parent=0xb878dc57
+[02:40:38.588] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.588] suballoc: type=0x80 parent=0xb878dc57
+[02:40:38.588] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.588] suballoc: type=0x82 parent=0xb878dc57
+[02:40:38.589] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.589] suballoc: type=0x0 parent=0x0
+[02:40:38.589] suballoc: -> 0xe00002c2 out=0x1000 va=0x0 len=0x0
+[02:40:38.589] suballoc: type=0x80 parent=0x0
+[02:40:38.589] suballoc: -> 0xe00002c2 out=0x1000 va=0x0 len=0x0
+[02:40:38.590] suballoc: type=0x82 parent=0x0
+[02:40:38.590] suballoc: -> 0xe00002c2 out=0x1000 va=0x0 len=0x0
+[02:40:38.590] suballoc: type=0x0 parent=0x1
+[02:40:38.590] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.590] suballoc: type=0x80 parent=0x1
+[02:40:38.590] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.591] suballoc: type=0x82 parent=0x1
+[02:40:38.591] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.591] suballoc: type=0x0 parent=0x2
+[02:40:38.591] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.591] suballoc: type=0x80 parent=0x2
+[02:40:38.591] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.592] suballoc: type=0x82 parent=0x2
+[02:40:38.592] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.592] suballoc: type=0x0 parent=0x3
+[02:40:38.592] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.592] suballoc: type=0x80 parent=0x3
+[02:40:38.593] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.593] suballoc: type=0x82 parent=0x3
+[02:40:38.593] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.593] suballoc: type=0x0 parent=0x4
+[02:40:38.593] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.594] suballoc: type=0x80 parent=0x4
+[02:40:38.594] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.594] suballoc: type=0x82 parent=0x4
+[02:40:38.594] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.594] suballoc: type=0x0 parent=0xffffffff
+[02:40:38.594] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.595] suballoc: type=0x80 parent=0xffffffff
+[02:40:38.595] suballoc: -> 0xe00002be out=0x1000 va=0x0 len=0x0
+[02:40:38.595] suballoc: type=0x82 parent=0xffffffff
+[02:40:38.595] suballoc: -> 0x0 out=0x1000 va=0x15000c0000 len=0x10000
+[02:40:38.595] tex: type=0 addr=0x100854000 len=0x4000
+[02:40:38.595] tex: -> 0xe00002be parent=0x0 out=0x1000
+[02:40:38.596] === XMLTarget sweeps done; planeSize matrix skipped ===
+[02:40:38.596] === IOGPU fuzz start ===
+[02:40:38.597] iogpu: F1 surface sel0=0x0 sid=184
+[02:40:38.598] iogpu: surface=0x11258d0a0 sid=184
+[02:40:38.599] iogpu: conn=0x6107
+[02:40:38.599] iogpu: baseline sel8=0x0 va=0x1500000000 len=0x10000 out=0x1000
+[02:40:38.600] replay iogpu: sel=8 sc=0 len=0x100
+[02:40:38.600] replay iogpu: -> 0xe00002c2 out=0x4000
+[02:40:38.601] iogpu: it=0 sel=8 kr=0xe00002c2 accepted=0 errors=1
+[02:40:39.817] iogpu: reconnect it=256 conn=0x610f

@@ -1,0 +1,79 @@
+[02:44:11.406] === IOSurface XML fuzz start ===
+[02:44:11.412] sysname=Darwin release=27.2.0 version=Darwin Kernel Version 27.2.0: Tue Oct 13 21:26:30 PDT 2026; root:xnu-13432.42.3~28/RELEASE_ARM64_T8110
+[02:44:11.413] log path: /var/mobile/Containers/Data/Application/<UUID>/Documents/XMLFuzz/fuzz-20261108-024411.log
+[02:44:11.413] === XMLTarget start ===
+[02:44:11.414] target: IOSurfaceRoot conn=0x6e53
+[02:44:11.415] replay: no last.xml
+[02:44:11.416] target: F1 shape sel0=0x0 sid=181
+[02:44:11.417] reconnect[0]: open conn=0x6b33
+[02:44:11.417] reconnect[0]: call
+[02:44:11.418] reconnect[0]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.419] reconnect[0]: close
+[02:44:11.475] reconnect[1]: open conn=0x46cf
+[02:44:11.475] reconnect[1]: call
+[02:44:11.476] reconnect[1]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.476] reconnect[1]: close
+[02:44:11.532] reconnect[2]: open conn=0x6f2b
+[02:44:11.534] reconnect[2]: call
+[02:44:11.535] reconnect[2]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.535] reconnect[2]: close
+[02:44:11.591] reconnect[3]: open conn=0x6c63
+[02:44:11.592] reconnect[3]: call
+[02:44:11.592] reconnect[3]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.592] reconnect[3]: close
+[02:44:11.648] reconnect[4]: open conn=0x6cc3
+[02:44:11.649] reconnect[4]: call
+[02:44:11.649] reconnect[4]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.650] reconnect[4]: close
+[02:44:11.701] reconnect[5]: open conn=0x6c07
+[02:44:11.702] reconnect[5]: call
+[02:44:11.703] reconnect[5]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.703] reconnect[5]: close
+[02:44:11.757] reconnect[6]: open conn=0x464b
+[02:44:11.759] reconnect[6]: call
+[02:44:11.759] reconnect[6]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.761] reconnect[6]: close
+[02:44:11.818] reconnect[7]: open conn=0x466b
+[02:44:11.819] reconnect[7]: call
+[02:44:11.820] reconnect[7]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.821] reconnect[7]: close
+[02:44:11.877] reconnect[8]: open conn=0x4683
+[02:44:11.879] reconnect[8]: call
+[02:44:11.880] reconnect[8]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.881] reconnect[8]: close
+[02:44:11.937] reconnect[9]: open conn=0x6b83
+[02:44:11.939] reconnect[9]: call
+[02:44:11.940] reconnect[9]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.940] reconnect[9]: close
+[02:44:11.997] reconnect[10]: open conn=0x6bb3
+[02:44:11.998] reconnect[10]: call
+[02:44:11.999] reconnect[10]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:11.999] reconnect[10]: close
+[02:44:12.055] reconnect[11]: open conn=0x6be3
+[02:44:12.056] reconnect[11]: call
+[02:44:12.057] reconnect[11]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:12.057] reconnect[11]: close
+[02:44:12.113] reconnect[12]: open conn=0x6b07
+[02:44:12.115] reconnect[12]: call
+[02:44:12.115] reconnect[12]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:12.116] reconnect[12]: close
+[02:44:12.172] reconnect[13]: open conn=0x6b13
+[02:44:12.173] reconnect[13]: call
+[02:44:12.173] reconnect[13]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:12.174] reconnect[13]: close
+[02:44:12.227] reconnect[14]: open conn=0x5e53
+[02:44:12.228] reconnect[14]: call
+[02:44:12.228] reconnect[14]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:12.229] reconnect[14]: close
+[02:44:12.284] reconnect[15]: open conn=0x623f
+[02:44:12.285] reconnect[15]: call
+[02:44:12.285] reconnect[15]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:12.286] reconnect[15]: close
+[02:44:12.342] reconnect[16]: open conn=0x707b
+[02:44:12.342] reconnect[16]: call
+[02:44:12.343] reconnect[16]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:12.343] reconnect[16]: close
+[02:44:12.399] reconnect[17]: open conn=0x7093
+[02:44:12.400] reconnect[17]: call
+[02:44:12.400] reconnect[17]: -> 0x0 va=0x1500000000 len=0x10000
+[02:44:12.401] reconnect[17]: close
